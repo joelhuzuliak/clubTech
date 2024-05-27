@@ -1,0 +1,135 @@
+/* TITULOS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* PARRAFOS */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* BOTONES */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hind:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background-color: #040006;
+    font-family: helvetica;
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(black, grey);
+}
+
+/* PRODUCTOS CELULARES */
+
+.swiper {
+    width: 100%;
+    height: auto;
+    padding: 150px 0 50px 0;
+}
+
+.swiper h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(35, 223, 35);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.swiper-slide {
+    width: 300px;
+    height: 500px;
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i {
+    font-size: 20px;
+    color: rgb(35, 223, 35);
+}
+
+.icons .fa-heart {
+    filter: drop-shadow(-1px 3px 3px rgb(35, 223, 35));
+}
+
+.icons img {
+    width: 120px;
+}
+
+.product-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-txt {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.product-txt span {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: "Hind", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.product-txt h3 {
+    font-size: 20px;
+    color: rgb(35, 223, 35);
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-txt p {
+    font-size: 14px;
+    color: white;
+    font-family: "Hind", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.product-img {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.product-img img {
+    width: 120px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid rgb(35, 223, 35);
+    border-radius: 25px;
+    color: rgb(35, 223, 35);
+    text-decoration: none;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.btn-1:hover {
+    background-color: rgb(35, 223, 35);
+    border: 1px solid black;
+    color: black;
+}
